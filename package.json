@@ -1,0 +1,24 @@
+{
+  "name": "polyfill-nodelist-foreach",
+  "version": "1.0.0",
+  "description": "Adds the forEach() method to NodeList objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettdewoody/polyfill-nodelist-foreach.git"
+  },
+  "keywords": [
+    "polyfill",
+    "nodelist",
+    "foreach"
+  ],
+  "author": "Brett DeWoody <brettdewoody@gmail.com> (http://brettdewoody.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brettdewoody/polyfill-nodelist-foreach/issues"
+  },
+  "homepage": "https://github.com/brettdewoody/polyfill-nodelist-foreach#readme"
+}
