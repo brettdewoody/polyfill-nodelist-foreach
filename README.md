@@ -1,6 +1,6 @@
 # Polyfill for NodeList.forEach()
 
-Adds the `forEach()` method to `NodeList` objects.
+Adds the `forEach()` method to `NodeList` objects when needed.
 
 ## Installation
 
@@ -12,6 +12,6 @@ or
 
 ## Usage
 
-Import the package in prior to using `forEach()` on a `NodeList` object.
+Import the package prior to using `forEach()` on a `NodeList` object.
 
     require('polyfill-nodelist-foreach')
