@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/brettdewoody/polyfill-nodelist-foreach.git"
   },
-  "keywords": [
-    "polyfill",
-    "nodelist",
-    "foreach"
-  ],
+  "keywords": ["IE11", "Safari 9", "polyfill", "nodelist", "foreach"],
   "author": "Brett DeWoody <brettdewoody@gmail.com> (http://brettdewoody.com)",
   "license": "MIT",
   "bugs": {
