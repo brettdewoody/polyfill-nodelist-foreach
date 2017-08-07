@@ -1,6 +1,6 @@
 {
   "name": "polyfill-nodelist-foreach",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Adds the forEach() method to NodeList objects.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/brettdewoody/polyfill-nodelist-foreach.git"
   },
-  "keywords": ["IE11", "Safari 9", "polyfill", "nodelist", "foreach"],
+  "keywords": [
+    "IE11",
+    "Safari 9",
+    "polyfill",
+    "nodelist",
+    "foreach"
+  ],
   "author": "Brett DeWoody <brettdewoody@gmail.com> (http://brettdewoody.com)",
   "license": "MIT",
   "bugs": {
