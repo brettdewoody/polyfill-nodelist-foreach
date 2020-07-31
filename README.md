@@ -1,6 +1,6 @@
 # Polyfill for NodeList.forEach()
 
-Adds the `forEach()` method to `NodeList` objects when needed.
+Adds the `forEach()` method to `NodeList` objects for browsers not supporting `NodeList.forEach`.
 
 ## Installation
 
@@ -10,8 +10,22 @@ or
 
     yarn add polyfill-nodelist-foreach
 
-## Usage
+## Import
 
-Import the package prior to using `forEach()` on a `NodeList` object.
+Import the polyfill prior to using `forEach()` on a `NodeList` object.
 
     require('polyfill-nodelist-foreach')
+
+or 
+
+    import 'polyfill-nodelist-foreach'
+
+## Usage
+
+    // Reference a Nodelist 
+    const nodeListElements = document.querySelectorAll('.item')
+
+    // Loop through the NodeList using forEach
+    nodeListElements.forEach((element, index, nodeList) => {
+        console.log(this, element, index, nodeList)
+    })
