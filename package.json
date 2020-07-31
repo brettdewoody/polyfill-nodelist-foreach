@@ -14,8 +14,8 @@
     "IE11",
     "Safari 9",
     "polyfill",
-    "nodelist",
-    "foreach"
+    "NodeList",
+    "forEach"
   ],
   "author": "Brett DeWoody <brettdewoody@gmail.com> (http://brettdewoody.com)",
   "license": "MIT",
